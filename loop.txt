@@ -1,0 +1,11 @@
+1.FACTORIAL  FIND THE  UPTO THE UMBERS
+var number=prompt("Enter the factorial number");
+var fact=1;
+for(var i=1;i<=number;i++){
+	fact=fact*i;
+	document.write("The factorial of"+number+"<br>");
+	document.write(fact+"<br>");
+	
+	
+}
+-----------------------------------------------------------------------------------------------
